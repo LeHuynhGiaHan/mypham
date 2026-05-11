@@ -1,0 +1,276 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+</head>
+<title>Mỹ phẩm</title>
+
+
+<style>
+
+   
+    body {
+        margin: 0; 
+        font-family: Arial; 
+    }
+
+    
+    .wrapper {
+        width: 1003px;
+        margin: auto; 
+        background: #7b001c; 
+    }
+
+    
+    .header {
+        display: flex; 
+    }
+
+        .header img {
+            display: block; 
+        }
+
+   
+    .logo {
+        width: 120px; 
+        height: 120px; 
+    }
+
+   
+    .mypham {
+        width: 300px;
+        height: 120px;
+    }
+
+
+    .banner {
+        flex: 1; 
+        height: 120px;
+    }
+
+    .menu-left img {
+        display: block;
+        margin: 3px auto;
+    }
+   
+    .menu {
+        background: #d35400; 
+        height: 33px; 
+        line-height: 33px;
+        text-align: center; 
+    }
+
+        .menu a {
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+            padding: 0 10px; 
+        }
+
+    .input-group {
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    }
+
+        .input-group label {
+            display: block; 
+            margin-top: 5px;
+        }
+
+        .input-group input {
+            display: block;
+            margin: 5px auto; 
+        }
+
+    .btn-gif {
+        display: block;
+        margin: 8px auto; 
+        background: url("Images/nut_tim_kiem.gif") no-repeat center;
+        width: 120px;
+        height: 30px;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+   
+    .main {
+        width: 1003px;
+        border-collapse: collapse; 
+    }
+
+    .footer {
+        position: relative; 
+        height: 40px;
+    }
+
+        
+        .footer img:first-child {
+            height: 40px; 
+            display: flex;
+            align-items: center;
+        }
+
+        
+        .footer img:last-child {
+            height: 100%; 
+            width: auto;
+        }
+
+        
+        .footer span {
+            flex: 1; 
+            text-align: center; 
+        }
+
+  
+    .left {
+        width: 220px;
+        vertical-align: top; 
+        background: #7b001c; 
+    }
+
+    .box-2img {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    .img-right {
+        display: block; 
+        margin-left: auto; 
+    }
+
+    .left img {
+        display: block; 
+        margin-bottom: 3px; 
+    }
+
+    
+    .avatar {
+        width: 200px;
+        margin: 10px;
+    }
+
+    .box {
+        color: white;
+        margin-top: 10px; 
+        padding-left: 10px; 
+    }
+
+    
+    input {
+        width: 180px;
+    }
+
+   
+    .btn-gif {
+        background: url("Images/nut_tim_kiem.gif") no-repeat center;
+        width: 120px;
+        height: 30px;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        display: block;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+   
+    .right {
+        width: 783px; 
+        background: #4a0014;
+    }
+
+    .img-left {
+        display: block;
+        margin-right: auto;
+    }
+
+    
+    .footer {
+        background: #8A0632;
+        color: white;
+        text-align: center;
+        padding: 2px;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- khung toàn bộ trang -->
+        <!--HEADER -->
+        <div class="header">
+            <img src="Images/logo.jpg" class="logo"> <!-- logo -->
+            <img src="Images/my_pham.gif" class="mypham"> <!-- chữ -->
+            <img src="Images/banner.gif" class="banner"> <!-- banner -->
+        </div>
+
+        <!--MENU-->
+        <div class="menu">
+            <a href="#">TRANG CHỦ</a> |
+            <a href="GT.html">GIỚI THIỆU</a> |
+            <a href="SP.html">SẢN PHẨM</a> |
+            <a href="#">HỎI ĐÁP</a> |
+            <a href="#">TƯ VẤN</a> |
+            <a href="#">GIỎ HÀNG</a> |
+            <a href="#">LIÊN HỆ</a>
+        </div>
+
+        <!--NỘI DUNG-->
+        <table class="main">
+            <tr>
+
+                <!-- BÊN TRÁI-->
+                <td class="left">
+
+                    <div class="menu-left">
+                        <img src="Images/trang_diem.gif">
+                        <img src="Images/duong_da.gif">
+                        <img src="Images/nuoc_hoa.gif">
+                        <img src="Images/duong_toc.gif">
+                        <img src="Images/duong_the.gif">
+                        <img src="Images/nam_gioi.gif">
+                    </div>
+                    <!-- ảnh -->
+                    <img src="Images/tuongtrung.jpg" class="avatar">
+
+                    <div class="input-group">
+                        <input type="text">
+                        <button class="btn-gif">Tìm kiếm</button>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Đăng nhập</label>
+                        <input type="text">
+
+                        <label>Mật khẩu</label>
+                        <input type="password">
+
+                        <button class="btn-gif">Đăng nhập</button>
+                    </div>
+                </td>
+
+                <!--BÊN PHẢI-->
+                <td class="right" bgcolor="red"></td>
+
+            </tr>
+        </table>
+
+        <!-- FOOTER -->
+        <div class="footer box-2img">
+            <img src="Images/vien_01.gif">
+
+            <span>Trang web được xây dựng bởi T3H Corp. 2007 ©</span>
+
+            <img src="Images/vien_02.gif">
+        </div>
+    </div>
+
+</body>
+</html>
